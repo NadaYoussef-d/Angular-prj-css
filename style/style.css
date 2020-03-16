@@ -1,0 +1,23 @@
+body {
+  background-color: snow;
+}
+.logo {
+  width: 32px;
+  height: 32px;
+  margin: 10px;
+}
+.icon {
+  color: white;
+}
+
+.container {
+  margin-top: 50px;
+  padding: 0%;
+}
+.profile-info {
+  background-color: white;
+  height: 200px;
+  width: 791.984px;
+  border: 1px solid rgb(178, 180, 182);
+  box-shadow: 1px rgb(208, 211, 214);
+}
