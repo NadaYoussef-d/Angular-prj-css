@@ -3,6 +3,7 @@ nav {
   background-color: #283e4a;
   height: 50px;
 }
+
 .navbar {
   /* margin-left: 15%; */
 }
@@ -10,6 +11,7 @@ nav {
 .nav-item:hover {
   text-decoration: underline;
 }
+
 * {
   padding: 0%;
   margin: 0%;
@@ -21,16 +23,17 @@ nav {
   display: flex;
   flex-wrap: nowrap;
 }
+
 .logoContainer {
   width: 30%;
   display: flex;
   margin-left: -28px;
 }
 
-.container {
+/* .container {
   display: flex;
   flex-wrap: nowrap;
-}
+} */
 
 .logo {
   width: 32px;
@@ -81,22 +84,27 @@ nav {
   padding: 3px 18px;
   align-items: center;
 }
+
 .navlist ul li:hover {
   text-decoration: underline;
 }
+
 .navlist ul li a {
   text-decoration: none;
   display: inline-block;
   color: white;
 }
+
 .white {
   color: white;
 }
+
 .search {
   border-radius: 2px;
   height: 34px;
   background-color: #e2e9f0;
 }
+
 .form-control {
   padding-left: 1.8rem;
 }
@@ -112,6 +120,7 @@ nav {
   pointer-events: none;
   color: rgb(122, 115, 115);
 }
+
 .form-inline {
   display: inline;
 }
@@ -128,18 +137,23 @@ nav {
     Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
     Lucida Grande, Helvetica, Arial, sans-serif;
 }
+
 .icon {
   margin: 0 -5px;
 }
+
 .icon-network {
   margin: 0 -8px;
 }
+
 .icon-msg {
   margin: 0 -10px;
 }
+
 .icon-notification {
   margin: 0 -14px;
 }
+
 .premium {
   text-align: center;
   color: #b9b293;
@@ -149,6 +163,7 @@ nav {
 .premium:hover {
   text-decoration: underline;
 }
+
 @media only screen and (max-width: 1250px) {
   .premium {
     display: none;
