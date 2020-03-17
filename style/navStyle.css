@@ -1,5 +1,10 @@
+nav {
+  width: 100%;
+  background-color: #283e4a;
+  height: 50px;
+}
 .navbar {
-  margin-left: 15%;
+  /* margin-left: 15%; */
 }
 
 .nav-item:hover {
@@ -14,12 +19,7 @@
 .logoContainer {
   width: 30%;
   display: flex;
-}
-
-nav {
-  width: 100%;
-  background-color: #283e4a;
-  height: 50px;
+  margin-left: 0;
 }
 
 .nav-content {
@@ -29,8 +29,6 @@ nav {
 }
 
 .container {
-  width: 80%;
-  margin: 0 auto;
   display: flex;
   flex-wrap: nowrap;
 }

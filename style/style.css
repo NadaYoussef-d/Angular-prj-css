@@ -1,16 +1,11 @@
 body {
   background-color: rgb(223, 221, 221);
 }
-/* .logo {
-  width: 32px;
-  height: 32px;
-  margin: 10px;
-}
-.icon {
-  color: white;
-}
 
-*/
+/* .container {
+  width: 80%;
+  margin: auto;
+} */
 .premium {
   text-align: center;
   color: #b9b293;
@@ -20,7 +15,7 @@ body {
 .premium:hover {
   text-decoration: underline;
 }
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 1250px) {
   .premium {
     display: none;
   }
