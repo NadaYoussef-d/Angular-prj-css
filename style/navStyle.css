@@ -140,3 +140,17 @@ nav {
 .icon-notification {
   margin: 0 -14px;
 }
+.premium {
+  text-align: center;
+  color: #b9b293;
+  font-size: 12px;
+}
+
+.premium:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 1250px) {
+  .premium {
+    display: none;
+  }
+}
