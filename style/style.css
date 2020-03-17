@@ -32,7 +32,9 @@ body {
   margin-top: 100px;
   height: 170px;
 }
-.text {
+.personal-txt {
+  display: flex;
+  flex-direction: row;
   margin-left: 30px;
   margin-top: 50px;
 }
@@ -45,4 +47,26 @@ body {
 }
 .btn-primary {
   background-color: rgb(3, 80, 121);
+}
+.button:hover {
+  background-color: rgb(2, 51, 77);
+}
+.btn {
+  margin-right: 5px;
+}
+.pen {
+  color: rgb(3, 80, 121);
+  align-self: center;
+}
+.edit {
+  width: 40px;
+  height: 40px;
+  border: 0px solid darkcyan;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.exp {
+  color: black;
 }
