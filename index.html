@@ -1,94 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
-    />
-    <link rel="stylesheet" href="style/bootstrap.min.css" />
-    <link rel="stylesheet" href="style/style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <!-- nav bar -->
-    <nav class="navbar navbar-dark" style="background-color:rgb(40, 62, 74);">
-      <form class="form-inline">
-        <img src="images/linkedin.png" class="logo" />
-        <!-- <i class="fab fa-linkedin" style="color: white;"></i> -->
-        <div class="input-group">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-            aria-describedby="basic-addon1"
-          />
-          <!-- <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon1">@</span>
-          </div> -->
-        </div>
-      </form>
-      <i class="fas fa-home icon"></i>
-      <i class="fas fa-users icon"></i>
-      <i class="fas fa-briefcase icon"></i>
-      <i class="fas fa-comment-alt icon"></i>
-    </nav>
-    <!-- profile pic block -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/all.min.css" />
+  <link rel="stylesheet" href="style/bootstrap.min.css" />
+
+  <link rel="stylesheet" href="style/navStyle.css" />
+  <link rel="stylesheet" href="style/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- nav bar -->
+  <nav>
+
     <div class="container">
-      <div class="row">
-        <div class="col-9">
-          <img
-            src="images/1.jpeg"
-            class="img-fluid"
-            alt="Responsive image"
-            width="791.984px"
-          />
+      <div class="nav-content">
+        <div class="logoContainer">
+
+          <img src="images/linkedIn1.png" class="logo" />
+
+
+          <form class="search-form ">
+            <i class="fa fa-search form-control-feedback  " aria-hidden="true"></i>
+            <input class="form-control search " type="search " placeholder="Search" aria-label="Search" />
+          </form>
+
+
+        </div>
+        <div class="navlist">
+          <ul class="navbar navicons">
+            <li class="nav-item active">
+              <a href="#"><i class="fas fa-home white  "></i>
+                <div class="icon-text icon">Home</div>
+              </a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-users white ml-md-2"></i>
+                <div class="icon-text icon-network">MyNetwork</div>
+              </a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-briefcase white"></i>
+                <div class="icon-text  icon ">Jobs</div>
+              </a>
+            </li>
+            <li>
+              <a href="#"><i class="far fa-comment-alt white"></i>
+                <div class="icon-text icon-msg ">Messaging</div>
+              </a>
+            </li>
+            <li>
+              <a href="#"><i class="far fa-bell white "></i>
+                <div class="icon-text icon-notification ">Notifications</div>
+              </a>
+            </li>
+            <li>
+              <a href="#"><i class="far fa-user-circle white"></i>
+                <div class="icon-text icon-notification ">Me</div>
+              </a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-th"></i>
+                <div class="icon-text icon-notification ">Work</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>
+                  <div class="premium">Try premium free for one month</div>
+                </span>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-      <img src="images/2.jpeg" alt="profile pic" class="rounded-circle pic" />
-      <div class="row">
-        <div class="col-9">
-          <div class="profile-info" width="791.984px">
-            <div class="add">
-              <button type="button" class="btn btn-primary button">
-                Add Profile Section
-                <i class="fas fa-caret-down"></i>
-              </button>
-              <button type="button" class="btn btn-outline-dark">
-                More...
-              </button>
-              <div class="edit">
-                <i class="fas fa-pencil-alt pen"></i>
-              </div>
+    </div>
+  </nav>
+  <!-- profile pic block -->
+  <!-- <div class="container"> -->
+  <div class="profile-container container">
+    <div class="row">
+      <div class="col-9">
+        <img src="images/1.jpeg" class="img-fluid" alt="Responsive image" width="791.984px" />
+      </div>
+    </div>
+    <img src="images/2.jpeg" alt="profile pic" class="rounded-circle pic" />
+    <div class="row">
+      <div class="col-9">
+        <div class="profile-info" width="791.984px">
+          <div class="add">
+            <button type="button" class="btn btn-primary button">
+              Add Profile Section
+              <i class="fas fa-caret-down"></i>
+            </button>
+            <button type="button" class="btn btn-outline-dark">
+              More...
+            </button>
+            <div class="edit">
+              <i class="fas fa-pencil-alt pen"></i>
             </div>
-            <div class="personal-txt">
-              <div class="text">
-                <h4 class="font-weight-normal">Nada Ahmed Youssef</h4>
-                <h5 class="font-weight-light">Web & User Interface</h5>
-                <h5 class="font-weight-light" style="display: inline;">
-                  Egypt .
-                </h5>
-                <h6
-                  class="font-weight-normal"
-                  style="display: inline; color: rgb(19, 148, 247);"
-                >
-                  500+ connections .Contact info
-                </h6>
-              </div>
-              <div class="experience">
-                <img src="images/ITIlogo.png" class="logo" />
-                <a href="#" class="text-right text-wrap exp"
-                  >Information Technology Institute (ITI)</a
-                >
-              </div>
+          </div>
+          <div class="personal-txt">
+            <div class="text">
+              <h4 class="font-weight-normal">Nada Ahmed Youssef</h4>
+              <h5 class="font-weight-light">Web & User Interface</h5>
+              <h5 class="font-weight-light" style="display: inline;">
+                Egypt .
+              </h5>
+              <h6 class="font-weight-normal" style="display: inline; color: rgb(19, 148, 247);">
+                500+ connections .Contact info
+              </h6>
+            </div>
+            <div class="experience">
+              <img src="images/ITIlogo.png" class="logo" />
+              <a href="#" class="text-right text-wrap exp">Information Technology Institute (ITI)</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- </div> -->
+  </div>
+  <!-- Ads -->
+</body>
 
-    <!-- Ads -->
-  </body>
 </html>

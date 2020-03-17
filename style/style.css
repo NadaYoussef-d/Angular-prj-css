@@ -1,7 +1,7 @@
 body {
   background-color: rgb(223, 221, 221);
 }
-.logo {
+/* .logo {
   width: 32px;
   height: 32px;
   margin: 10px;
@@ -10,7 +10,17 @@ body {
   color: white;
 }
 
-.container {
+*/
+.premium {
+  text-align: center;
+  color: #b9b293;
+  font-size: 12px;
+}
+
+.premium:hover {
+  text-decoration: underline;
+}
+.profile-container {
   margin-top: 50px;
   padding: 0%;
   display: flex;
