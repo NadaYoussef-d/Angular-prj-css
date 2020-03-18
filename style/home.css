@@ -1,3 +1,9 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f5f5f5;
+}
+
 .profile-card {
     position: relative;
 }
@@ -55,10 +61,48 @@
     color: #006097;
 }
 
+.card-hover-background:hover {
+    width: 100%;
+    background-color: #f3f6f8;
+}
+
+.card-text-top {
+    display: inline-block;
+    vertical-align: top;
+}
+
 .card-flex {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+}
+
+.right-card-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.hr-width {
+    width: 19.5rem
+}
+
+.about-color {
+    color: #878585
+}
+
+.about-hover:hover {
+    color: #3f95c3;
+}
+
+.about-img {
+    height: 17px;
+    width: 60px;
+}
+
+.about-text {
+    display: inline-block;
+    vertical-align: bottom;
 }
 
 /* a:hover {
