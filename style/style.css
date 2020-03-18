@@ -1,6 +1,5 @@
 body {
   background-color: rgb(223, 221, 221);
-
 }
 
 /* .container {
@@ -15,7 +14,7 @@ body {
   flex-direction: column;
   /* justify-content: center; */
 }
-.profile-info {
+.profile-block {
   background-color: white;
   height: 300px;
   width: 791.984px;
@@ -71,120 +70,112 @@ body {
 
 /*about*/
 
-.about-container{
-
+.about-container {
   margin-top: 15px;
   padding: 1.2rem;
   /* display: flex; */
   /* flex-direction: column; */
   background-color: white;
   height: 150px;
-  width: 791.984px; 
+  width: 791.984px;
   /* border: 1px solid red; */
   /* border: 1px solid rgb(178, 180, 182); */
   box-shadow: 1px rgb(208, 211, 214);
   margin-left: 6.5rem;
   margin-bottom: 10px;
+  border: 1px solid rgb(178, 180, 182);
 }
 
-.about-header-container{
+.about-header-container {
   display: flex;
 
- /* border:2px solid blue;  */
- 
- width: 100%; 
- padding: .5rem;
+  /* border:2px solid blue;  */
+
+  width: 100%;
+  padding: 0.5rem;
 }
-.about-header-h2{
+.about-header-h2 {
   /* border:2px solid purple; */
 }
-.space{
+.space {
   width: 87%;
 }
-.about-header-icon{
+.about-header-icon {
   /* border: 1px solid hotpink; */
 }
-.about-body-container{
+.about-body-container {
   /* border:  .2px solid green ; */
-  margin-top: .3rem;
-  padding: .2rem;
-  width:100% ;
+  margin-top: 0.3rem;
+  padding: 0.2rem;
+  width: 100%;
   height: auto;
 }
-.about-text
-{
- 
- /* border: 1px solid hotpink; */
- overflow: hidden;
- text-overflow: ellipsis;
- white-space: nowrap;
-width:70% ;
-padding: 10px;
+.about-text {
+  /* border: 1px solid hotpink; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 70%;
+  padding: 10px;
 }
-.about-text-span{
-  
+.about-text-span {
 }
 /*about*/
 /*Skills*/
-.Skill-container{
-
+.Skill-container {
   margin-top: 15px;
   padding: 1.2rem;
   /* display: flex; */
   /* flex-direction: column; */
   background-color: white;
   height: auto;
-  width: 791.984px; 
+  width: 791.984px;
   /* border: 1px solid red; */
   /* border: 1px solid rgb(178, 180, 182); */
   box-shadow: 1px rgb(208, 211, 214);
   margin-left: 6.5rem;
   margin-bottom: 10px;
+  border: 1px solid rgb(178, 180, 182);
 }
 
-.Skill-header-container{
+.Skill-header-container {
   display: flex;
 
- /* border:2px solid blue;  */
- 
- width: 100%; 
- padding: .5rem;
+  /* border:2px solid blue;  */
+
+  width: 100%;
+  padding: 0.5rem;
 }
-.Skill-header-h2{
+.Skill-header-h2 {
   /* border:2px solid purple; */
 }
-.Skill-space{
+.Skill-space {
   width: 65%;
-
 }
-.Skill-header-icon{
+.Skill-header-icon {
   /* border: 1px solid hotpink; */
 }
-.Skill-body-container{
+.Skill-body-container {
   /* border:  .2px solid green ; */
-  margin-top: .3rem;
-  padding: .2rem;
-  width:100% ;
+  margin-top: 0.3rem;
+  padding: 0.2rem;
+  width: 100%;
   height: auto;
 }
-.Skill-text-Icon-container{
-/* border:1px solid red ; */
-display: flex;
-border-bottom: 1px solid rgb(185, 184, 184);
-padding: 10px; 
+.Skill-text-Icon-container {
+  /* border:1px solid red ; */
+  display: flex;
+  border-bottom: 1px solid rgb(185, 184, 184);
+  padding: 10px;
 }
-.Skill-text
-{
- 
- /* border: 1px solid hotpink; */
- overflow: hidden;
- text-overflow: ellipsis;
- white-space: nowrap;
-width:30% ;
-/* */
-
+.Skill-text {
+  /* border: 1px solid hotpink; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 30%;
+  /* */
 }
-.Skill-edit{
-  
+.Skill-edit {
 }
 /*skills*/
