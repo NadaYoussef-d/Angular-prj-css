@@ -16,7 +16,7 @@ body {
 }
 .profile-block {
   background-color: white;
-  height: 300px;
+  height: auto;
   width: 791.984px;
   border: 1px solid rgb(178, 180, 182);
   box-shadow: 1px rgb(208, 211, 214);
@@ -36,11 +36,21 @@ body {
   margin-top: 50px;
 }
 
-.add {
+.add-section {
   display: flex;
   justify-content: flex-end;
   align-self: flex-end;
   padding: 10px;
+}
+.add {
+  align-self: flex-end;
+  padding: 10px;
+}
+.experience {
+  display: flex;
+  justify-content: flex-end;
+
+  flex-direction: column;
 }
 .btn-primary {
   background-color: rgb(3, 80, 121);
@@ -86,14 +96,14 @@ body {
   border: 1px solid rgb(178, 180, 182);
 }
 
-.about-header-container {
+/* .about-header-container {
   display: flex;
 
-  /* border:2px solid blue;  */
+  border:2px solid blue; 
 
   width: 100%;
   padding: 0.5rem;
-}
+} */
 .about-header-h2 {
   /* border:2px solid purple; */
 }
@@ -120,8 +130,9 @@ body {
 }
 .about-text-span {
 }
-/*about*/
+
 /*Skills*/
+
 .Skill-container {
   margin-top: 15px;
   padding: 1.2rem;
@@ -138,7 +149,7 @@ body {
   border: 1px solid rgb(178, 180, 182);
 }
 
-.Skill-header-container {
+.block-header {
   display: flex;
 
   /* border:2px solid blue;  */
