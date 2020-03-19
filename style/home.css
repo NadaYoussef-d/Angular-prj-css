@@ -105,6 +105,18 @@ body {
     vertical-align: bottom;
 }
 
+/* #about-icon {
+    width: 13px;
+    height: 13px;
+    content: url("images/icons8-expand-arrow-13.png");
+    background-image: url('images/icons8-expand-arrow-13.png');
+} */
+
+/* .about-icon:hover {
+    src: url('images/icons8-expand-arrow-13-hover.png');
+    content: url("images/icons8-expand-arrow-13-hover.png");
+} */
+
 /* a:hover {
     text-decoration: underline;
   } */
