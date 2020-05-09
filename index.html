@@ -130,8 +130,15 @@
                 More...
               </button>
               <div class="edit">
+                <a
+                data-toggle="modal"
+                data-target="#profileModal"
+                data-whatever="@getbootstrap"
+              >
                 <i class="fas fa-pencil-alt pen"></i>
-              </div>
+              </div> 
+            
+              
             </div>
             <div class="personal-txt">
               <div class="text">
@@ -160,6 +167,85 @@
       <!-- </div> -->
     </div>
 
+    <!-- profile modal --> 
+<div class="modal fade bd-example-modal-xl" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+   
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Edit Intro</h5>
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputFName">First Name</label>
+              <input required type="text" class="form-control" id="inputEmail4" />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputLName">Last Name</label>
+              <input required type="text" class="form-control" id="inputPassword4" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Headline</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputHeadline"
+            />
+          </div>
+          <br>
+          <h6
+                  class="font-weight-normal"
+                  style="display: inline; color: rgb(19, 148, 247);"
+                >
+                <i class="fa fa-plus"> </i
+                  >
+                   Add current position
+                </h6>
+                <br>
+                <br>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck" />
+                    <label class="form-check-label" for="gridCheck">
+                      Show my education in my intro
+                    </label>
+                  </div>
+                </div>
+          <div class="form-group">
+            <label for="inputAddress2">Education</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputEducation"
+            />
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">Country/Region</label>
+              <input type="text" class="form-control" id="inputCity" />
+            </div>
+          </div>
+          
+        </form> 
+        <div class="modal-footer">
+         
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      
+    </div>
+  </div>
+</div>
+     
     <!--About-->
 
     <div class="about-container shadow-sm p-3 mb-5 bg-white rounded">
